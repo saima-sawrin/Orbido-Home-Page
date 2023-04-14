@@ -26,7 +26,9 @@ const Header = () => {
                                 title="Orbido"
                                 className=" font-semibold tracking-wide text-gray-400 transition-colors duration-200 hover:text-deep-purple-accent-400"
                               >
-                             ORBIDO
+                             <span className="text-xl font-bold tracking-wide text-gray-200 uppercase">
+                   OR<span className="text-yellow-600">BIDO</span> 
+                  </span>
                               </a>
                           </a>
                           <ul className=" items-center hidden space-x-8 lg:flex">
@@ -76,7 +78,7 @@ const Header = () => {
                               className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
                               onClick={() => setIsMenuOpen(true)}
                             >
-                              <svg className="w-5 text-gray-400" viewBox="0 0 24 24">
+                              <svg className="w-5 text-cyan-400" viewBox="0 0 24 24">
                                 <path
                                   fill="currentColor"
                                   d="M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z"
@@ -93,7 +95,7 @@ const Header = () => {
                             </button>
                             {isMenuOpen && (
                               <div className="absolute pl-5 top-0 right-0 w-4/7">
-                                <div className="p-5 bg-black text-white border rounded shadow-sm">
+                                <div className="p-5 bg-black text-cyan-400 border rounded shadow-sm">
                                   <div className="flex items-center justify-between mb-4">
                                     <div>
                                       <a
@@ -130,7 +132,7 @@ const Header = () => {
                                           href="/"
                                           aria-label="Home"
                                           title="Home"
-                                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                                          className="font-medium tracking-wide text-cyan-400 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                         >
                                           Home
                                         </a>
@@ -140,7 +142,7 @@ const Header = () => {
                                           href="/"
                                           aria-label="About us"
                                           title="About us"
-                                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                                          className="font-medium tracking-wide text-cyan-400 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                         >
                                           About Us
                                         </a>
@@ -150,7 +152,7 @@ const Header = () => {
                                           href="/"
                                           aria-label="features"
                                           title="features"
-                                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                                          className="font-medium tracking-wide text-cyan-400 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                         >
                                           Features
                                         </a>
@@ -160,7 +162,7 @@ const Header = () => {
                                           href="/"
                                           aria-label="solution"
                                           title="solution"
-                                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                                          className="font-medium tracking-wide text-cyan-400 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                         >
                                           Solution
                                         </a>

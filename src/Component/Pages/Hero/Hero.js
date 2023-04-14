@@ -3,7 +3,7 @@ import './Hero.css';
 
 const Hero = () => {
     return (
-        <div className='px-24 mx-24 my-5 header '>
+        <div className='lg:px-24 lg:mx-24 my-5 header '>
  
      <h1 className='text-5xl font-bold py-2 bg-gradient-to-r from-emerald-400 via-purple-800 to-pink-600  inline-block text-transparent bg-clip-text'>MAKE YOUR DREAM 
        </h1>
