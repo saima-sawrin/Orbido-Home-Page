@@ -5,9 +5,9 @@ import Button from '../Button/Button';
 import './Service.css';
 const Service = () => {
     return (
-        <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-gradient-to-r from-gray-700 to-gray-500 rounded-[20px] box-shadow text-left grad`}>
+        <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-gradient-to-t from-gray-500 to-gray-700 rounded-[20px] box-shadow text-left grad`}>
         <div className="flex-1 flex flex-col">
-          <h2 className={styles.heading2}>Let’s try our service now!</h2>
+          <h2 className={styles.heading}>Let’s try our service now!</h2>
           <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
             Everything you need to accept card payments and grow your business
             anywhere on the planet.
